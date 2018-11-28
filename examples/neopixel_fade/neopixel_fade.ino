@@ -34,23 +34,27 @@ void setup() {
 
 }
 
+int maxbrightness = 150;
+
 void loop() {
   // Fade all LEDs in, then fade all LEDs out.
 
   for(int i = 0; i < 100; i++) { // This is the outer loop
     for(int x = 0; x < 8; x++) { // This is the inner loop
-      pixels.setPixelColor(x, pixels.Color(i,i,i)); // Preset each LED with current fade brightness
+      pixels.setPixelColor(x, pixels.Color(100-i,0,i)); // Preset each LED with current fade brightness
+    }
+    pixels.show(); // This sends the updated pixel color to all preset LEDs
+    delay(delaytime);
+  }
+
+  for(int i = 0; i < 100; i++) { // This is the outer loop
+    for(int x = 0; x < 8; x++) { // This is the inner loop
+      pixels.setPixelColor(x, pixels.Color(i,0,100-i)); // Preset each LED with current fade brightness
     }
     pixels.show(); // This sends the updated pixel color to all preset LEDs
     delay(delaytime);
   }
   
-  for(int i = 100; i > 0; i--) {
-    for(int x = 0; x < 8; x++) { 
-      pixels.setPixelColor(x, pixels.Color(i,i,i)); 
-    }
-    pixels.show();
-    delay(delaytime);
-  }
+ 
     
 }

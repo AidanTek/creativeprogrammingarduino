@@ -19,12 +19,12 @@
   #include <avr/power.h>
 #endif
 
-const byte neopin = 2; // this is the pin Din or DATAIN is connected to for the WS2812 LEDs
-const byte numleds = 8; // How many individual LEDs have you got?
+const byte neopin = 19; // this is the pin Din or DATAIN is connected to for the WS2812 LEDs
+const byte numleds = 1; // How many individual LEDs have you got?
 
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(numleds, neopin, NEO_GRB + NEO_KHZ800);
 
-const int delaytime = 20; // Parameter used to set the pace of the sketch
+const int delaytime = 2; // Parameter used to set the pace of the sketch
  
 void setup() {
   pixels.begin(); // This initializes the NeoPixel library.

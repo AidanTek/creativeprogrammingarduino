@@ -6,8 +6,7 @@
  *  - Connect Din or DATAIN to an unused digital pin, I use pin 2
  *  
  *  I have a strip of 8 WS2812 Neopixel LEDs, if you have more or less, change the numleds parameter below
- *  This sketch functions much like blink. Experiment by changing the colour settings in loop() and try
- *  adding more steps to the sequence.
+ *  This sketch functions much like blink. Here we also use the random() function for some fun.
  *  
  *  Respect is due to Adafruit for their work on the Neopixel library.
  *  
@@ -31,10 +30,16 @@ void setup() {
 }
 
 void loop() {
-  // Turn on all LEDs then turn them all off
+  // Turn on all LEDs as a random colour, then turn them all off
+  
+  // First let's make some new variables and store a random number in them 
+    // (this updates every loop)
+  int red = random(80);
+  int green = random(80);
+  int blue = random(80);
   
   for(int i = 0 ; i < numleds; i++) {
-    pixels.setPixelColor(i, pixels.Color(100,100,100)); // This command presets one LED at a time
+    pixels.setPixelColor(i, pixels.Color(red, green, blue)); // This command presets one LED at a time
   }
   pixels.show(); // This sends the updated pixel color to all preset LEDs
 
