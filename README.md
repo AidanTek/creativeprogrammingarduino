@@ -34,7 +34,7 @@ I have avoided putting print commands in the code examples for the most part to 
 
 This tutorial is broken up into sections based on the topics covered in the workshop. You can navigate to these sections by following the links below.
 
-* [Installation](https://github.com/AidanTek/creativeprogrammingarduino/wiki/Installation) - start here
+* [01. Installation](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/01_Installation.md) - start here
 * [Getting Started with Arduino](https://github.com/AidanTek/creativeprogrammingarduino/wiki/Getting-Started)
 * [Neopixels: Set up and testing](https://github.com/AidanTek/creativeprogrammingarduino/wiki/Neopixels-Setup-and-Test)
 * [Neopixels: Using Loops](https://github.com/AidanTek/creativeprogrammingarduino/wiki/Neopixels-Using-Loops)
