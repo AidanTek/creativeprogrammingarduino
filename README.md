@@ -37,13 +37,12 @@ This tutorial is broken up into sections based on the topics covered in the work
 * 01. [Installation](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/01_Installation.md) - start here
 * 02. [Getting Started: The IDE](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/02_GettingStarted_TheIDE.md)
 * 03. [Getting Started: The Breadboard](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/03_GettingStarted_TheBreadboard.md)
-* 04. [Neopixels: Setting Up and Testing](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/04_Neopixels_SettingUp.md)
-* 05. Neopixels: Basic Use
-* 06. [Neopixels: Using Loops](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/06_Neopixels_UsingLoops.md)
-* 07. Buzzer Music
-* 08. [Basic Control Input](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/08_BasicControlInput.md)
-* 09. [DHT11 Digital Sensor](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/09_DHT11Sensor.md)
-* 10. [Extra Resources](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/10_ExtraResources.md)
+* 04. [Neopixels: Setting Up and Basic Use](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/04_Neopixels_SettingUp.md)
+* 05. [Neopixels: Using Loops](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/05_Neopixels_UsingLoops.md)
+* 06. Buzzer Music
+* 07. [Basic Control Input](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/07_BasicControlInput.md)
+* 08. [DHT11 Digital Sensor](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/08_DHT11Sensor.md)
+* 09. [Extra Resources](https://github.com/AidanTek/creativeprogrammingarduino/blob/master/09_ExtraResources.md)
 
 
 
